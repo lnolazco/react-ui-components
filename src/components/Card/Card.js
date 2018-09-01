@@ -4,7 +4,7 @@ import './styles.scss';
 class Tile extends Component {
   render() {
     return (
-      <div className="ui-tile">
+      <div className="ui-card">
         {this.props.children}
       </div>
     );
